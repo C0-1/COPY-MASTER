@@ -1,0 +1,24 @@
+.navigation ul{
+    display: flex;
+    /* background-color: #136147; */
+    column-gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation ul li{
+    position: relative;
+}
+.navigation ul li a{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: var(--header-color);
+    transition: all .2s ease-in-out;
+}

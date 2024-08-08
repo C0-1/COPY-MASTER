@@ -1,0 +1,18 @@
+header{
+    color: var(--header-color);
+    background: var(--header-bg);
+    position: fixed;
+}
+header .container-xxxl{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container{
+    width: 410px;
+    padding: 5px 0;
+}
+.logo-container img{
+    height: 60px;
+}

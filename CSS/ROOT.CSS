@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding: 0;
+}
+.container-xxxl{
+    margin: auto;
+    padding: 0 15px;
+    max-width: 2100px;
+}
+.bg-blue:hover{
+    background: #163c76;
+    color: #ffffff;
+}
+:root{
+    --header-bg: #30619f;
+    --header-color: #d4d4d4;
+}
