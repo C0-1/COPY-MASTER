@@ -2,20 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-.container-fluid{
-    padding: 0;
-}
-.container-xxxl{
-    margin: auto;
-    padding: 0 15px;
-    max-width: 2100px;
-}
-.bg-blue:hover{
-    background: #163c76;
-    color: #ffffff;
+    font-family: sans-serif;
 }
 :root{
-    --header-bg: #30619f;
-    --header-color: #d4d4d4;
+    --header-color: #ffffff;
+    --header-bg: #ffffff2c;
+    --nav-ul-ul-bg: #1d1010e3;
+    --search-input-bg: #06245c91;
+    --profile-bg: rgba(0, 102, 255, 0.37);
+    --header-hover-color: orange;
 }

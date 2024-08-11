@@ -1,0 +1,17 @@
+main{
+    background: gray;
+    z-index: 1;
+}
+main .container-fluid{
+    padding: 0;
+}
+.intro-container{
+    padding-top: 80px;
+}
+.intro-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 911px;
+    width: 100%;
+}

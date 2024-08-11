@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +10,12 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- BOOTSTRAP.CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
     <!-- TITLE-LOGO.CSS -->
-    <link rel="title-logo" type="x-icon" href="./ASSETS/LOGO/LOGO-CM.png">
+    <link rel="icon" type="png" href="./ASSETS/LOGO/LOGO-CM.png">
 
 
     <!-- ROOT.CSS -->
@@ -31,74 +33,94 @@
     <!-- THEME.CSS -->
     <link rel="stylesheet" href="./CSS/THEME.CSS">
 
+
+    <!-- STYLE.CSS -->
+    <link rel="stylesheet" href="./CSS/STYLE.CSS">
+
 </head>
+
 <body>
-
-
-    <!-- ======  HEADER  ====== -->
-
-
     <header class="container-fluid">
-        <div class="container-xxxl">
 
-            <!-- ======  HEADER-LOGO  ====== -->
+        <!-- ===== LOGO ===== -->
 
-            <div class="logo-container">
-                <img src="./ASSETS/LOGO/LOGO-CM.png" alt="">
+        <div class="logo-container">
+            <img src="./ASSETS/LOGO/FULL-LOGO.svg" alt="FULL-LOGO">
+        </div>
+
+        <!-- ===== NAVIGATION ===== -->
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">resume</a></li>
+                <li><a href="#">projects <i class='bx bx-dots-horizontal-rounded'></i></a><i class='bx bx-chevron-right'></i>
+                    <ul>
+                        <li><a href="#">web site</a></li>
+                        <li><a href="#">web pages</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">web-componant</a></li>
+                <li><a href="#">softwear</a></li>
+                <li><a href="#">nots <i class='bx bx-dots-horizontal-rounded'></i></a><i class='bx bx-chevron-right'></i>
+                    <ul>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">photoshop</a></li>
+                        <li><a href="#">JS</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- ===== SEARCH-THEME-PROFILE ===== -->
+
+        <div class="search-theme-profile">
+            <div class="search">
+                <button class="search-icon">
+                    <i class='bx bx-search'></i>
+                    <form class="search-input">
+                        <input type="text" name="search" placeholder="search">
+                        <input type="reset" value="×" class="reset">
+                    </form>
+                </button>
             </div>
 
-            <!-- ======  NAVIGATION  ====== -->
-
-            <nav class="navigation">
-                <ul>
-                    <li><a class="bg-blue" href="#">home</a></li>
-                    <li><a class="bg-blue" href="#">project <i class='bx bx-chevron-right'></i></a></li>
-                    <li><a class="bg-blue" href="#">web-componant <i class='bx bx-chevron-right'></i></a></li>
-                    <li><a class="bg-blue" href="#">links <i class='bx bx-chevron-right'></i></a></li>
-                    <li><a class="bg-blue" href="#">nots <i class='bx bx-chevron-right'></i></a></li>
-                </ul>
-            </nav>
-
-            <!-- ======  SEARCH & THEME & PROFILE  ====== -->
-
-            <div class="search-theme-profile">
-
-                <!-- ======  SEARCH  ====== -->
-
-                <div class="search">
-                    <div class="icon">
-                        <i class='bx bx-search'></i>
-                    </div>
-                    <div class="search-input">
-                        <input type="text" placeholder="search">
-                    </div>
+            <div class="profile">
+                <div class="profile-img-container">
+                    <img src="./ASSETS/IMAGE/bg-6.png" alt="">
                 </div>
-
-                <!-- ======  THEME  ====== -->
-
-                <div class="theme">
-                    <img id="theme" src="./ASSETS/LOGO/Logo-Sun.png" alt="">
-                </div>
-
-                <!-- ======  PROFILE  ====== -->
-
-                <div class="profile">
-                    <div class="profile-img-container">
-                        <img src="./ASSETS/IMAGE/profile.jpeg" alt="">
-                    </div>
-                    <div class="profile-text-container">
-                        <span id="name">C0-1</span>
-                        <span id="profation">Full stack Web-developer</span>
-                    </div>
+                <div class="profile-text-container">
+                    <span>C0-1</span>
+                    <span>full stack web-developer</span>
                 </div>
             </div>
+            
+                    <!-- ===== navigation-dropedown ===== -->
+            
+                    <div class="navigation-dropedown">
+                        <i class='bx bx-menu'></i>
+                    </div>
         </div>
     </header>
 
+    <main class="container-fluid">
+        <!-- ===== INTRO-CONTAINER ===== -->
+        <div class="intro-container">
+            <img src="./ASSETS/IMAGE/bg-7.png" alt="">
+        </div>
+    </main>
 
     <!-- JS -->
 
     <!-- BOOTSTRAP.JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- ===== CLICK.JS ===== -->
+    <script src="./JS/NAVIGATION.JS"></script>
 </body>
+
 </html>
