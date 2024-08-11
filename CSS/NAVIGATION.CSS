@@ -86,7 +86,7 @@
     .navigation{
         position: fixed;
         position: absolute;
-        top: 70px;
+        top: 100%;
         right: 0;
         background-color: rgb(2, 54, 54);
         height: 100vh;
@@ -127,6 +127,6 @@
         position: static;
     }
     .navigation-dropedown{
-        display: block;
+        display: flex;
     }
 }

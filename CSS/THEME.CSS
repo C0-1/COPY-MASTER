@@ -134,5 +134,14 @@
 
 }
 @media screen and (max-width:950px) {
-
+.search-theme-profile {
+    column-gap: 5px;
+}
+.profile {
+    background: transparent;
+    padding: 0;
+}
+.profile-text-container {
+    display: none;
+}
 }
