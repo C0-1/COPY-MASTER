@@ -4,11 +4,10 @@ header{
     right: 0;
     color: var(--header-color);
     background: var(--header-bg);
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(15px);
     z-index: 2;
     display: flex;
     justify-content: space-between;
-    /* column-gap: 40px; */
 }
 .logo-container{
     padding: 10px 0;

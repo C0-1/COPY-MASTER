@@ -7,8 +7,14 @@
 :root{
     --header-color: #ffffff;
     --header-bg: #ffffff2c;
-    --nav-ul-ul-bg: #1d1010e3;
+    --nav-ul-ul-bg: #000000a1;
     --search-input-bg: #06245c91;
-    --profile-bg: rgba(0, 102, 255, 0.37);
+    --profile-bg: #3a3a3a83;
     --header-hover-color: orange;
+    --res-nav-bg: #042449d8;
+    --res-nav-a-bg: #8c00ff;
+
+
+
+    --footer-color: #ffffff;
 }

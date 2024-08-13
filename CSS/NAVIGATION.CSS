@@ -88,7 +88,7 @@
         position: absolute;
         top: 100%;
         right: 0;
-        background-color: rgb(2, 54, 54);
+        background: var(--res-nav-bg);
         height: 100vh;
         width: 0%;
         padding: 0;
@@ -111,7 +111,7 @@
         justify-content: space-between;
     }
     .navigation ul li a:hover{
-        background-color: #006eff;
+        background: var(--res-nav-a-bg);
     }
     .navigation ul li a i{
         display: block;
