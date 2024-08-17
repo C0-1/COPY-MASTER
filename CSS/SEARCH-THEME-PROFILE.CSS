@@ -92,7 +92,15 @@
 }
 
 .dark-theme {
+
     --h-color: #000000;
+    --h-bg: #d3d3d3;
+    --h-n-bg: #8a8a8a;
+    --h-n-u-u-bg: #9c9c9c;
+    --h-s-f-bg: #afafaf;
+    --h-p-c-bg: #afafaf;
+    --l-f-i: invert(0);
+    --r-n-bg: #c4c4c4;
 }
 
 
@@ -157,7 +165,7 @@
 }
 
 .profile-content ul li:hover {
-    background: #2C74B3;
+    background: var(--r-n-bg);
     border-radius: 6px;
 }
 
