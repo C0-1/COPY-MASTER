@@ -37,8 +37,7 @@ header {
 @media screen and (max-width:950px) {
     .logo-container {
         padding: 5px 0;
-        gap: 0%;
-        width: 65%;
+        gap: 8px;
         justify-content: space-between;
     }
 
@@ -57,8 +56,9 @@ header {
 
     .logo-img-container img.logo-2{
         display: block;
-        height: 40px;
-        width: 200px;
+        height: 30px;
+        width: 150px;
         margin-top: 5px;
+        filter: var(--l-f-i);
     }
 }
