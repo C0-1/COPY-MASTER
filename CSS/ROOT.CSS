@@ -1,20 +1,68 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
 :root{
-    --header-color: #ffffff;
-    --header-bg: #ffffff2c;
-    --nav-ul-ul-bg: #000000a1;
-    --search-input-bg: #06245c91;
-    --profile-bg: #3a3a3a83;
-    --header-hover-color: orange;
-    --res-nav-bg: #042449d8;
-    --res-nav-a-bg: #8c00ff;
+    --ff-1: "Estonia", cursive;
+    --ff-2: "Rubik 80s Fade", system-ui;
+    --ff-3: "Splash", cursive;
+    --ff-4: "Butcherman", system-ui;
+    --ff-5: "Rubik Wet Paint", system-ui;
+    --ff-6: "Sirin Stencil", sans-serif;
+    --ff-7: "Neonderthaw", cursive;
+    --ff-8: "Lugrasimo", cursive;
+    --ff-9: "Festive", cursive;
+    --ff-10: "Nosifer", sans-serif;
+    --ff-11: "Akronim", system-ui;
+    --ff-12: "Rubik Maps", system-ui;
+    --ff-13: "Eater", serif;
+    --ff-14: "Raleway Dots", sans-serif;
+    --ff-15: "Rubik Glitch", system-ui;
+    --ff-16: "Rubik Glitch Pop", system-ui;
+    --ff-17: "Bruno Ace SC", sans-serif;
+    --ff-18: "Elsie", serif;
+    --ff-19: "Turret Road", sans-serif;
+    --ff-20: "Bungee Inline", sans-serif;
+    --ff-21: "Overlock SC", sans-serif;
+    --ff-22: "Fredericka the Great", serif;
+    --ff-23: "Cabin Sketch", sans-serif;
+    --ff-24: "Cinzel", serif;
+    --ff-25: "Black Ops One", system-ui;
+    --ff-26: "Playball", cursive;
+    --ff-27: "Audiowide", sans-serif;
+    --ff-28: "Bad Script", cursive;
+    --ff-29: "Viga", sans-serif;
+    --ff-30: "Parisienne", cursive;
+    --ff-31: "Chela One", system-ui;
+    --ff-32: "Staatliches", sans-serif;
+    --ff-33: "Yatra One", system-ui;
+    --ff-34: "Merienda", cursive;
+    --ff-35: "Kaushan Script", cursive;
+    --ff-36: "Courgette", cursive;
+    --ff-37: "Ga Maamli", sans-serif;
+    --ff-38: "Edu AU VIC WA NT Hand", cursive;
+    --ff-39: "Permanent Marker", cursive;
+    --ff-40: "Foldit", sans-serif;
+    --ff-41: "Waterfall", cursive;
+    --ff-42: "Vast Shadow", serif;
+    --ff-43: "Sacramento", cursive;
+    --ff-44: "Rubik Scribble", system-ui;
+    --ff-45: "Rubik Lines", system-ui;
+    --ff-46: "Playwrite AT", cursive;
+    --ff-47: "Orbitron", sans-serif;
+    --ff-48: "Monoton", sans-serif;
+    --ff-49: "Marck Script", cursive;
+    --ff-50: "Kalam", cursive;
+    --ff-51: "Josefin Slab", serif;
+    --ff-52: "Italianno", cursive;
+    --ff-53: "Bungee Outline", sans-serif;
+    --ff-54: "Bungee Hairline", sans-serif;
+    --ff-55: "Bungee", sans-serif;
+    --ff-56: "Bebas Neue", sans-serif;
 
 
+    /* ===== Header-Root ===== */
 
-    --footer-color: #ffffff;
+    
+    --h-color: #ffffff;
+    --h-bg: #144272;
+    --h-n-u-u-bg: #205295;
+    --h-s-f-bg: #205295;
+    --h-p-c-bg: #205295;
 }

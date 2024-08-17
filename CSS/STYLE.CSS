@@ -4,11 +4,9 @@ main{
 main.container-fluid{
     padding: 0;
 }
+
 .intro-container{
-    padding-top: 80px;
-    background: url(../ASSETS/IMAGE/bg-7.png) no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-color: #0A2647;
     height: 100vh;
-    padding: 80px 15px 0 15px;
+    padding: 76px 15px 0 15px;
 }

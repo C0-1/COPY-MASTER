@@ -1,0 +1,236 @@
+.nav-btns {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* ===== SEARCH ===== */
+
+
+
+.search {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.search i {
+    font-size: 35px;
+    color: var(--h-color);
+}
+
+.search form {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: none;
+    background: var(--h-s-f-bg);
+}
+
+.search form input {
+    height: 50px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid gray;
+}
+
+.search form input[type="text"] {
+    width: 100%;
+    padding: 5px 75px 4px 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: var(--ff-19);
+    text-transform: capitalize;
+    color: var(--h-color);
+}
+
+.search form input[type="text"]::placeholder {
+    color: var(--h-color);
+    text-transform: capitalize;
+    font-family: var(--ff-21);
+}
+
+.search form input[type="reset"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    width: 60px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 45px;
+    line-height: 10px;
+    padding-bottom: 10px;
+    color: var(--h-color);
+}
+
+.search:focus-within>form {
+    display: block;
+}
+
+
+
+/* ===== THEME ===== */
+
+
+.theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme img {
+    height: 30px;
+}
+
+.dark-theme {
+    --h-color: #000000;
+}
+
+
+
+
+/* ===== PROFILE ===== */
+
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.profile .profile-img {
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile .profile-img img {
+    height: 50px;
+    width: 50px;
+}
+
+.profile-content {
+    position: absolute;
+    top: 112%;
+    right: 0%;
+    margin-right: 23px;
+    border-radius: 8px;
+    display: none;
+    z-index: 2;
+    background: var(--h-p-c-bg);
+}
+
+.profile-content::after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    right: 12px;
+    height: 15px;
+    width: 12px;
+    transform: rotate(-135deg);
+    z-index: 0;
+    border-radius: 100% 0% 100% 0% / 100% 100% 0% 0%;
+    background: var(--h-p-c-bg);
+}
+
+.profile-content ul {
+    list-style: none;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 0;
+}
+
+.profile-content ul li {
+    display: flex;
+    transition: .2s ease-in-out;
+}
+
+.profile-content ul li:hover {
+    background: #2C74B3;
+    border-radius: 6px;
+}
+
+.profile-content ul li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: var(--h-color);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.profile-content ul li a i {
+    font-size: 20px;
+}
+
+.profile:is(:focus-within, :hover)>.profile-content {
+    display: block;
+}
+
+
+
+
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:950px) {
+    .nav-btns {
+        gap: 5px;
+    }
+
+    .search i {
+        font-size: 25px;
+        color: var(--h-color);
+    }
+    .search form {
+        padding: 5px;
+    }
+    .search form input {
+        height: 35px;
+        border: 1px solid gray;
+    }
+    
+    .search form input[type="text"] {
+        padding: 5px 52px 4px 10px;
+        font-size: 15px;
+        border-radius: 2px;
+    }
+    
+    .search form input[type="reset"] {
+        margin: 5px;
+        width: 40px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        font-size: 35px;
+        padding-bottom: 6px;
+    }
+
+    .theme img {
+        height: 25px;
+    }
+    .profile .profile-img img {
+        height: 30px;
+        width: 30px;
+    }
+    .profile-content::after {
+        top: -7px;
+        right: 10px;
+    }
+    .profile-content {
+        top: 125%;
+        margin-right: 14px;
+    }
+}

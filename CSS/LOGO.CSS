@@ -2,22 +2,44 @@ header{
     position: fixed;
     left: 0;
     right: 0;
-    color: var(--header-color);
-    background: var(--header-bg);
-    backdrop-filter: blur(15px);
+    color: var(--h-color);
+    background: var(--h-bg);
     z-index: 2;
     display: flex;
     justify-content: space-between;
 }
 .logo-container{
     padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo-img-container{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo-container img{
-    height: 50px;
-    filter: invert(1);
+    height: 100%;
 }
 @media screen and (max-width:950px){
+    .logo-container{
+        padding: 5px 0;
+        gap: 110px;
+    }
+    .logo-img-container{
+        width: fit-content;
+        border-radius: 0%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .logo-container img{
-        height: 30px;
+        height: 40px;
     }
 }
