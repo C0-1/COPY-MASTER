@@ -52,7 +52,7 @@ main.container-fluid {
     }
     .intro-container img {
         height: 40em;
-        padding: 0 0 40px 0;
+        padding: 0 10px 40px 0;
     }
 .intro-text-content h1 {
     font-size: 30px;
