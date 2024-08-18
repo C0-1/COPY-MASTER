@@ -38,11 +38,46 @@ main.container-fluid {
 }
 
 .intro-text-content p {
-    font-size: 40px;
+    font-size: 30px;
     text-align: justify;
     line-height: 45px;
-    font-family: var(--ff-1);
+    font-family: var(--ff-26);
 }
+
+
+
+
+
+
+.project-container{
+    background: #1e1e1e;
+    padding: 20px 15px;
+}
+.project-container h1{
+    text-align: center;
+    color: var(--h-color);
+    text-transform: capitalize;
+    padding: 20px 40px 40px 40px;
+    font-family: var(--ff-22);
+    font-size: 50px;
+    margin: 0;
+}
+.project-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.project-content .cards .card{
+    max-width: 600px;
+    min-width: 325px;
+    background: #ffffff41;
+    backdrop-filter: blur(0px);
+}
+
+
 
 @media screen and (max-width:950px) {
     .intro-container {
@@ -50,21 +85,32 @@ main.container-fluid {
         padding: 76px 15px 0 15px;
 
     }
+
     .intro-container img {
         height: 40em;
-        width: 100%;
+        width: fit-content;
         padding: 0 10px 40px 0;
     }
-.intro-text-content h1 {
-    font-size: 30px;
-    line-height: 45px;
-    text-align: center;
-}
-.intro-text-content {
-    gap: 25px;
-}
-.intro-text-content p {
-    font-size: 24px;
-    line-height: 30px;
+
+    .intro-text-content h1 {
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .intro-text-content {
+        gap: 25px;
+    }
+
+    .intro-text-content p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+
+
+.project-container h1{
+    font-size: 40px;
 }
 }

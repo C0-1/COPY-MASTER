@@ -56,6 +56,9 @@
      <link rel="stylesheet" href="./CSS/SEARCH-THEME-PROFILE.CSS">
 
 
+
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- ===== Style Css ===== -->
      <link rel="stylesheet" href="./CSS/STYLE.CSS">
 
@@ -150,15 +153,57 @@
 
 <main class="container-fluid">
     <div class="intro-container">
-        <div class="intro-text-content">
+        <div class="intro-text-content"  data-aos="fade-right">
             <h1>hi, i am copy master, <br>
             wealcome to our website to lurn and master in <br class="d-lg-none">
             <span id="auto-type"></span></h1>
 
-        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quae, numquam ad ab mollitia quo repudiandae voluptatibus sint nisi sequi recusandae provident distinctio aperiam consequatur esse consectetur facilis aliquid omnis. Maiores architecto iste nihil, nisi excepturi saepe, asperiores laboriosam commodi quidem explicabo autem, reiciendis distinctio?</p>
+        <p>Wealcome to our website. Here you got top class projects clone and project componants. We are always try our best. So please keep supporting us.
+<br>
+            Also comment whitch projects or componants we didn't have. Our 24*7 service can help you every time when you need. For contact use our social media contact links. Visite our site daily for updates and newly launch projects.</p>
         </div>
-        <img src="./ASSETS/IMAGE/1.png" alt="">
+        <img src="./ASSETS/IMAGE/1.png" alt="" data-aos="fade-left">
     </div>
+
+
+    <div class="project-container">
+        <h1 data-aos="fade-up">our projects</h1>
+        <div class="project-content">
+            <div class="cards" data-aos="fade-up-right" data-aos-duration="2000" >
+                <div class="card">
+                    <img src="./ASSETS/IMAGE/bg-12.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards" data-aos="fade-up"
+            data-aos-duration="2000">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards" data-aos="fade-up-left" data-aos-duration="2000">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </main>
 
  <!-- ===== ***** JS ***** ===== -->
@@ -174,6 +219,12 @@
 
     <!-- ===== Theme Js ===== -->
     <script src="./JS/Theme.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
     <!-- ===== Auto-Type Js ===== -->
