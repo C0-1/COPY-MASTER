@@ -61,11 +61,14 @@
 
     
     --h-color: #ffffff;
-    --h-bg: #144272;
-    --h-n-bg: #0e2e4d;
+    --h-bg: #ffffff0a;
+    --h-n-bg: #0a2647;
     --h-n-u-u-bg: #205295;
     --h-s-f-bg: #205295;
     --h-p-c-bg: #205295;
     --l-f-i: invert(1);
     --r-n-bg: #2c74b3;
+
+
+    --m-i_c-bg: url(../ASSETS/IMAGE/bg-32.png) no-repeat;
 }

@@ -94,13 +94,18 @@
 .dark-theme {
 
     --h-color: #000000;
-    --h-bg: #d3d3d3;
+    --h-bg: #d3d3d311;
     --h-n-bg: #8a8a8a;
     --h-n-u-u-bg: #9c9c9c;
     --h-s-f-bg: #afafaf;
     --h-p-c-bg: #afafaf;
     --l-f-i: invert(0);
     --r-n-bg: #c4c4c4;
+
+
+
+    --m-i_c-bg: url(../ASSETS/IMAGE/bg-4.png) no-repeat;
+
 }
 
 
