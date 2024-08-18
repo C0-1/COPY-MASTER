@@ -38,7 +38,7 @@ main.container-fluid {
 }
 
 .intro-text-content p {
-    font-size: 30px;
+    font-size: 28px;
     text-align: justify;
     line-height: 45px;
     font-family: var(--ff-26);
@@ -75,6 +75,21 @@ main.container-fluid {
     min-width: 325px;
     background: #ffffff41;
     backdrop-filter: blur(0px);
+}
+.project-content .cards .card .card-body h5{
+    color: var(--h-color);
+    font-size: 25px;
+    margin: 10px 0;
+}
+.project-content .cards .card .card-body p {
+    color: var(--h-color);
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.project-content .cards .card .card-body a {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 
@@ -113,4 +128,10 @@ main.container-fluid {
 .project-container h1{
     font-size: 40px;
 }
+}
+
+@media screen and (max-width:500px){
+    .intro-container img {
+        width: 100%;
+    }
 }
