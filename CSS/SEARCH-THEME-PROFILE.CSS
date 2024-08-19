@@ -94,7 +94,7 @@
 .dark-theme {
 
     --h-color: #000000;
-    --h-bg: #d3d3d311;
+    --h-bg: #03030311;
     --h-n-bg: #8a8a8a;
     --h-n-u-u-bg: #9c9c9c;
     --h-s-f-bg: #afafaf;
@@ -104,7 +104,7 @@
 
 
 
-    --m-i_c-bg: url(../ASSETS/IMAGE/bg-4.png) no-repeat;
+    --m-i_c-bg: url(../ASSETS/IMAGE/bg-37.png) no-repeat;
 
 }
 

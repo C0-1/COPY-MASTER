@@ -50,7 +50,9 @@ main.container-fluid {
 
 
 .project-container {
-    background: #1e1e1e;
+    background: var(--m-i_c-bg);
+    background-size: cover;
+    background-position: center center;
     padding: 20px 15px;
 }
 
@@ -77,7 +79,7 @@ main.container-fluid {
     max-width: 600px;
     min-width: 325px;
     background: #ffffff41;
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(5px);
 }
 
 .project-content .cards .card .card-body h5 {
@@ -98,7 +100,7 @@ main.container-fluid {
     margin-top: 20px;
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1700px) {
     .intro-container {
         padding: 76px 20px 0 20px;
         column-gap: 20px;
@@ -117,10 +119,12 @@ main.container-fluid {
         font-size: 40PX;
         line-height: 60PX;
     }
+
     .intro-text-content p {
         font-size: 20px;
         line-height: 35px;
     }
+
     .project-content .cards .card {
         max-width: 330px;
     }
